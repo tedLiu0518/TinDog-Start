@@ -1,30 +1,37 @@
-h1{
+body{
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
 }
+
+h2{
+    font-weight: 700;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
 .container-fluid{
     padding: 5% 10% 5% 10%;
 }
 #title-1{
     background-color: #ff4c68;
+    position: relative;
+    z-index: 1;
 }
-.fa-apple{
-    height: 30px;
-    width: 30px;
-    margin-bottom: 5px;
-}
-.fa-google-play{
-    height: 25px;
-    width: 25px;
-    margin-bottom: 7px;
-    margin-top: 3px;
-}
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-}
+
+
 .navbar-brand{
     font-family: 'Ubuntu', sans-serif;
     font-size: 2.5rem;
@@ -39,13 +46,12 @@ body{
 }
 .title-image{
     width: 65%;
+    margin-top: 50px;
     transform: rotate(30deg);
+    z-index: -1;
+    position: relative;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1rem;
-}
+
 .feature-1{
     color: #8f8f8f;
     font-size: 0.5rem;
@@ -53,4 +59,117 @@ h3{
 .feature-box{
     text-align: center;
 }
+.check{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.target{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.icon{
+    color: #ef8172;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    background-color: #ef8172;
+    padding: 10% 10% 10% 10%;
+    text-align: center;
+}
 
+.img-dog{
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    padding: 0% 10% 10% 10%;
+    text-align: center;
+}
+.press-logo{
+    width: 200px;
+    margin: 20px 20px 20px 20px;
+}
+.carousel-item{
+    padding: 0 10% 0 10%;
+}
+#pricing{
+    padding: 10% 10% 10% 10%;
+}
+.cc{
+    margin: 5% 0 5% 0;
+}
+.pric{
+    padding-bottom: 5%;
+    text-align: center;
+}
+#features-1{
+    background-color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+@media (max-width: 991px) {
+    .title-image{
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.fot-h3{
+    font-weight: 700;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+#footer{
+    padding-top: 15%;
+}
+
+
+.fa-twitter{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.fa-facebook{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.fa-instagram{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.fa-envelope{
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+.fa-apple{
+    height: 30px;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.fa-google-play{
+    height: 25px;
+    width: 25px;
+    margin-bottom: 7px;
+    margin-top: 3px;
+}
